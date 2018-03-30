@@ -57,7 +57,7 @@ namespace Task5
                 min = int.MaxValue;
                 used[minIndex] = true;
             }
-            Console.WriteLine((lens[N-1] != int.MaxValue) ? (lens[N-1] - lens[0]) : -1);
+            Console.WriteLine((lens[N-1] != int.MaxValue) ? (lens[N-1] - weights[N-1]) : -1);
         }
     }
 }
